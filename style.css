@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CED4DB;
+    width: 440px;
+    margin-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top:10px;
+padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.title{
+    text-align: center;
+    margin-top:10px;
+}
+
+.form-control{
+    margin-top:20px;
+    outline: none;
+    height: 40px;
+    border-width: 1px;
+    border-color: #CED4DB;
+    border-style: solid;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+.form-control:focus{
+    border-color: #719ECE;
+    box-shadow: 0 0 4px #719ECE;
+}
+.btn-login{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    
+
+
+    background-color: #198754;
+    border-color: #198754; 
+    color:#fff;
+    cursor:pointer;
+
+    transition: all .14s ease-in-out;
+}
+
+.btn-login:hover{
+  background-color: #157348;
+    border-color: #157348; 
+}
+
+.label{
+    font-weight: 600;
+    margin:10px 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color:#0D6EFD;
+}
