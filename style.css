@@ -80,3 +80,178 @@ a{
     text-decoration: none;
     color:#0D6EFD;
 }
+
+main ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    margin-left: 5px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+
+main  .container{
+margin-top:10px;
+width:calc(100vw - 80px);
+
+}
+
+
+.container .header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: #CED4DB;
+    border-bottom-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.p-0{
+    padding:0
+}
+
+table{
+    margin:20px
+}
+
+.btn-success{
+    color:#fff;
+    border-radius: 5px;
+    background-color: #198754;
+    padding:10px;
+    border-width: 0;
+    cursor: pointer;
+    transition: all .12s ease-in-out;
+
+}
+
+.header button{
+    margin-right: 60px;
+}
+
+.btn-success:hover{
+    background-color: #167347;
+}
+
+table thead{
+    text-align: justify;
+}
+
+
+
+table td,th{
+    border-bottom-color: #CED4DB;
+    border-bottom-width: 1px;
+    padding:10px;
+    border-bottom-style: solid;
+    
+}
+
+
+.btn{
+    color:#fff;
+    border-radius: 5px;
+    padding:10px;
+    border-width: 0;
+    cursor: pointer;
+    transition: all .12s ease-in-out;
+
+}
+
+.btn-primary{
+    background-color: #0d6efd;
+}
+
+.btn-primary:hover{
+    background-color: #085ED6;
+}
+
+.btn-secondary{
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover{
+    background-color: #50585D;
+}
+
+.btn-danger{
+    background-color:  #dc3545;
+}
+
+.btn-danger:hover{
+    background-color: #A52834;
+}
+
+main ul li{
+   font-weight: 600;
+    color: #6C757D;
+    font-size: 14px;
+}
+
+
+.flex-center{
+    justify-content: center !important;
+    padding: 15px !important;
+}
+
+form{
+    padding:20px;
+}
+
+.row{
+   margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+
+label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.col-6{
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    align-items: center;
+    padding: 5px 20px;
+    border-top-width: 1px;
+    border-top-color: #CED4DB;
+    border-top-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer button{
+    width: 200px;
+}
+
+ul li:not(:first-child)::before{
+    content: '>';
+}
