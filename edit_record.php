@@ -21,7 +21,16 @@
             <h3 >Edit Student's Record</h3>
         </div>
 
-<form action="">
+        <?php
+
+$content = file_get_contents('student.json');
+$studentData = json_decode($content, true);
+
+
+
+
+?>
+<form action="" class='p-20'>
 
         <div class="row">
 
